@@ -1,0 +1,16 @@
+Package: FinalProject
+Type: Package
+Title: Predict the amount of Runs a baseball team will score in a Major League Baseball season.
+Version: 0.1.0
+Author: Trent Blum
+Maintainer: The package maintainer <tblum@usf.edu>
+Description: Three functions help to determine how many runs a team will score. CalculateStats will tell us a player's On Base percentage, Slugging percentage, and On Base Plus Slugging percentage should we have a dataset which doesn't list those.
+    The CalculateRuns function will calculate the expected amount of runs the team should have scored in a given season no matter how many games have been played (so it can be used to measure a complete season or a partial season.)
+    The PredictRuns function will take the average On Base Plus Slugging percentage of a team, and predict how many runs that team will score over a 162 game season, given a partial amount of games played. I.E. a team has played 30 games, how many will they score over 162 given those 30 games.
+    PredictiveRuns, PredictiveOPS, and CurrentSeasonOPS aren't functions and are more experimental scripts to look for independent measurements.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    billboard
+RoxygenNote: 7.2.3
