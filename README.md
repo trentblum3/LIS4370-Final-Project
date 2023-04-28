@@ -10,3 +10,5 @@ Calculate Stats is used to find advanced stats of any individual baseball player
 Calculate Runs will calculate how many runs your team should have scored over a given period, either a partial season or a complete season.
 
 Predict Runs will predict how many runs a team will score over a full 162 game season, given partial seasons' results.
+
+Predictive OPS, Predictive Runs, and Current Season OPS model are independent measurements I did and don't involve the three previously mentioned functions.
